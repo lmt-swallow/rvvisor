@@ -4,6 +4,8 @@
 
 **rvvisor** is a tiny hypervisor written in Rust, which partially supports RISC-V Hypervisor Extension v0.6.1 included in [Volume II: RISC-V Privileged Architectures V1.12-draft](https://riscv.org/technical/specifications/)). 
 
+![demo image](./public/demo-image.png)
+
 ## Requirements
 
 This project relies on the following tools.
