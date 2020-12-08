@@ -103,7 +103,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "riscv-tiny-hypervisor"
+name = "rvvisor"
 version = "0.1.0"
 dependencies = [
  "cc",

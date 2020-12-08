@@ -22,9 +22,9 @@ pub fn rust_hypervisor_entrypoint() -> ! {
     log::info!("hypervisor started");
 
     if let Err(e) = init() {
-        panic!("Failed to init tiny-hypervisor. {:?}", e)
+        panic!("Failed to init rvvisor. {:?}", e)
     }
-    log::info!("succeeded in initializing tiny hypervisor");
+    log::info!("succeeded in initializing rvvisor");
 
     // TODO (enhnancement): multiplex here
     let guest_name = "guest01";

@@ -19,7 +19,7 @@ pub extern "C" fn rust_m_entrypoint() -> ! {
     };
 
     println!("-----------------------");
-    println!(" riscv-tiny-hypervisor");
+    println!(" rvvisor");
     println!("-----------------------");
 
     // init logger.
